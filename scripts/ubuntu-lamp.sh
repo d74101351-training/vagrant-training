@@ -30,6 +30,9 @@ service mysql status
 sudo mysql -u root -e "SHOW DATABASES";
 
 # Download Starter Content from GitHub
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/d74101351-training/vagrant-training/refs/heads/main/files/index.html?token=GHSAT0AAAAAADI3A56WNTGPUSRVLA6EEOY22EVU4IQ
+sudo -u vagrant wget -q https://raw.githubusercontent.com/d74101351-training/vagrant-training/refs/heads/main/files/info.php?token=GHSAT0AAAAAADI3A56WWXZ27GGFFCNLDSQQ2EVVARQ
 
 
 systemctl restart apache2.service
