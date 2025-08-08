@@ -7,4 +7,4 @@ apt update
 apt upgrade -y
 
 # Add some utilities
-apt install -y git nano unzip screen nc telnet
+apt install -y git nano unzip screen telnet
