@@ -4,7 +4,7 @@
 apt update
 
 # Upgrade any existing packages to the lastest versions available
-apt upgrade -y
+# apt upgrade -y
 
 # Add some utilities
-apt install -y git nano unzip screen telnet
+apt install -y git nano
